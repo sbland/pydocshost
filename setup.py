@@ -48,7 +48,7 @@ class BuildPyCommand(build_py.build_py):
 
 setuptools.setup(
     name="pydocshost",
-    version="0.0.1",
+    version="0.1.0",
     author="Sam Bland",
     author_email="sblandcouk@gmail.com",
     description="Python docs api and frontend",
