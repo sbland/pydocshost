@@ -6,3 +6,4 @@ pytest-cov==2.10.1
 pytest-mock==3.3.1
 snapshottest==0.5.1
 pre-commit
+bump2version>=1.0.1
