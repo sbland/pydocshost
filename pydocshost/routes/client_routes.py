@@ -2,7 +2,7 @@ from flask import (Flask)
 from pathlib import Path
 
 
-def client_routes(app: Flask, client_path: Path):
+def client_routes(app: Flask):
     @app.route(f"/static/<path:folder>/<path:filename>")
     def client_static_proxy(folder, filename):
         return app.send_static_file(f"client/static/{folder}/{filename}")
