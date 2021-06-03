@@ -1,2 +1,2 @@
-graft pydocshost/static
+graft static
 global-exclude *.pyc
