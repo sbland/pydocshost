@@ -3,7 +3,7 @@ import flask
 from .routes.client_routes import client_routes
 
 
-def get_app(static_folder="../static", docs_directory="../static/docs") -> flask.Flask:
+def get_app(static_folder="../static", docs_directory="../static/docs", *args, **kwargs) -> flask.Flask:
     app = flask.Flask(__name__, static_folder=static_folder)
 
     # Client Static Paths
