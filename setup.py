@@ -66,7 +66,7 @@ setuptools.setup(
     extras_require={"test": ["pytest", "pytest-mock"]},
     install_requires=["flask"],
     packages=setuptools.find_packages(),
-    package_dir={"pydocshost": "pydocshost"},
+    package_dir={"pydocshost": "pydocshost", "pydocshost.app": "app"},
     include_package_data=True,
     classifiers=[
         "Programming Language :: Python :: 3.8",
